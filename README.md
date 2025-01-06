@@ -70,12 +70,14 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 | SDA   | A4             |
 | SCL   | A5             |
 <img src="images/I2C.png" alt="I2C" width="150">
+
 ### Variable Resistor Connections
 | Pin   | Arduino Uno Pin |
 |-------|-----------------|
 | A     | VCC            |
 | B     | A0             |
 | C     | GND            |
+
 <img src="images/VR.png" alt="Variable Resistor" width="150">
 ### Arduino System Wiring
 <img src="images/Arduino%20System%20Wiring.png" alt="Arduino System Wiring" width="500">

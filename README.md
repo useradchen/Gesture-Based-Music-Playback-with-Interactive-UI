@@ -79,8 +79,7 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 | C     | GND            |
 
 <img src="images/VR.png" alt="Variable Resistor" width="150">
-### Arduino System Wiring
-<img src="images/Arduino%20System%20Wiring.png" alt="Arduino System Wiring" width="500">
+
 ---
 
 ## 📋 Requirements
@@ -95,6 +94,8 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 ## 🛠 Setup Instructions
 1. **Hardware Assembly**  
    - Connect the Arduino to the LED, 1602 LCD, and variable resistor as per the pin mapping table.
+   #### Arduino System Wiring
+<img src="images/Arduino%20System%20Wiring.png" alt="Arduino System Wiring" width="600">
 
 2. **Install Dependencies**  
 ```python

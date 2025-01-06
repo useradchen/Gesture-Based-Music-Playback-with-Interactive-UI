@@ -37,12 +37,12 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 2. The gesture results and song name are returned to the Arduino via I2C.
 3. LEDs and the UI reflect the current playback status.
 
-![Gesture Recognition Workflow](images/Gesture%20Recognition%20Workflow.png)
+<img src="images/Gesture%20Recognition%20Workflow.png" alt="Gesture Recognition Workflow" width="600">
 
 ### Volume Adjustment Process
 <div style="display: flex; align-items: center;">
   <!-- 左邊的流程圖 -->
-  <img src="images/Volume%20Adjustment%20Workflow.png" alt="Flowchart" style="width: 50%; margin-right: 20px;">
+  <img src="images/Volume%20Adjustment%20Workflow.png" alt="Flowchart" style="width: 30%; margin-right: 20px;">
 
   <!-- 右邊的 GIF 圖片 -->
   <img src="images/V_R.gif" alt="Demo GIF" style="width: 50%;">
@@ -69,15 +69,16 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 | GND   | GND            |
 | SDA   | A4             |
 | SCL   | A5             |
-
+<img src="images/I2C.png" alt="I2C" width="150">
 ### Variable Resistor Connections
 | Pin   | Arduino Uno Pin |
 |-------|-----------------|
 | A     | VCC            |
 | B     | A0             |
 | C     | GND            |
+<img src="images/VR.png" alt="Variable Resistor" width="150">
 ### Arduino System Wiring
-![Arduino System Wiring](images/Arduino%20System%20Wiring.png)
+<img src="images/Arduino%20System%20Wiring.png" alt="Arduino System Wiring" width="500">
 ---
 
 ## 📋 Requirements

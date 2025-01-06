@@ -1,6 +1,5 @@
 # Gesture-Based-Music-Playback-with-Interactive-UI
-Goal:Using Mediapipe Gestures to Play Music and Display Results in the UI
-# Using Mediapipe Gestures to Play Music and Display Results in the UI
+Goal: Using Mediapipe Gestures to Play Music and Display Results in the UI
 
 ## 📖 Introduction
 This project combines gesture recognition using MediaPipe and OpenCV with Arduino hardware to create a music control system. Hand gestures control music playback, track switching, and volume, with real-time feedback on an LED indicator, UI, and 1602 LCD.
@@ -38,14 +37,16 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 2. The gesture results and song name are returned to the Arduino via I2C.
 3. LEDs and the UI reflect the current playback status.
 
-![Gesture Recognition Workflow](link-to-image)
+![Gesture Recognition Workflow](images/Gesture%20Recognition%20Workflow.png)
 
 ### Volume Adjustment Process
-1. The potentiometer adjusts resistance.
-2. The resistance value is sent back to Python via Arduino.
-3. Python updates the volume accordingly.
+<div style="display: flex; align-items: center;">
+  <!-- 左邊的流程圖 -->
+  <img src="images/Volume%20Adjustment%20Workflow.png" alt="Flowchart" style="width: 50%; margin-right: 20px;">
 
-![Volume Adjustment Workflow](link-to-image)
+  <!-- 右邊的 GIF 圖片 -->
+  <img src="images/VR.gif" alt="Demo GIF" style="width: 50%;">
+</div>
 
 ---
 
@@ -93,4 +94,4 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 
 2. **Install Dependencies**  
    ```bash
-   pip install opencv-python mediapipe
+      !pip install opencv-python mediapipe

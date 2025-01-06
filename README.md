@@ -45,7 +45,7 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
   <img src="images/Volume%20Adjustment%20Workflow.png" alt="Flowchart" style="width: 50%; margin-right: 20px;">
 
   <!-- 右邊的 GIF 圖片 -->
-  <img src="images/VR.gif" alt="Demo GIF" style="width: 50%;">
+  <img src="images/V_R.gif" alt="Demo GIF" style="width: 50%;">
 </div>
 
 ---
@@ -53,10 +53,10 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 ## ✋ Gesture Controls
 | Gesture      | Action         | LED Color  |
 |--------------|----------------|------------|
-| Hand Open    | Play           | Green      |
-| OK           | Pause          | Red        |
-| One Finger   | Previous Track | White      |
-| Two Fingers  | Next Track     | Yellow     |
+| Hand Open<img src="images/Hand%20Open.png" align="right" width="25" height="25" />    | Play     | Green  |
+| OK <img src="images/OK.png" align="right" width="25" height="25"/>                    | Pause    | Red    |
+| One Finger<img src="images/One%20Finger.png" align="right" width="25" height="25" />  | Previous | White  |
+| Two Fingers<img src="images/Two%20Fingers.png" align="right" width="25" height="25" />| Next    | Yellow |
 
 ---
 
@@ -76,11 +76,12 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 | A     | VCC            |
 | B     | A0             |
 | C     | GND            |
-
+### Arduino System Wiring
+![Arduino System Wiring](images/Arduino%20System%20Wiring.png)
 ---
 
 ## 📋 Requirements
-- Python 3.x
+- Python 3.11.5
 - MediaPipe
 - OpenCV
 - Arduino IDE
@@ -93,5 +94,6 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
    - Connect the Arduino to the LED, 1602 LCD, and variable resistor as per the pin mapping table.
 
 2. **Install Dependencies**  
-   ```bash
-      !pip install opencv-python mediapipe
+```python
+| !pip install opencv-python mediapipe serial pygame
+```

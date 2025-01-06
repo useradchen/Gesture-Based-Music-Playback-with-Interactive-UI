@@ -96,5 +96,5 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 
 2. **Install Dependencies**  
 ```python
-| !pip install opencv-python mediapipe serial pygame
+ !pip install opencv-python mediapipe serial pygame
 ```

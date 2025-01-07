@@ -104,3 +104,9 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
 3. **Note:** 
    - If your hand gestures are not being recognized or detected properly, **try adjusting the `angle`** of your computer camera or moving to a **`well-lit area`** for testing.
 
+---
+
+## 👀🎥Demo (Video)
+   [![YouTube Video](https://img.youtube.com/vi/KCkU5Yah4kM/0.jpg)](https://youtu.be/KCkU5Yah4kM)
+
+

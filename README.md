@@ -45,7 +45,7 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
   <img src="images/Volume%20Adjustment%20Workflow.png" alt="Flowchart" style="width: 30%; margin-right: 20px;">
 
   <!-- 右邊的 GIF 圖片 -->
-  <img src="images/V_R.gif" alt="Demo GIF" style="width: 50%;">
+  <img src="images/VR.gif" alt="Demo GIF" style="width: 50%;">
 </div>
 
 ---

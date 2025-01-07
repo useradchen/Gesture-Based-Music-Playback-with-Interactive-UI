@@ -26,7 +26,7 @@ This project combines gesture recognition using MediaPipe and OpenCV with Arduin
    - The 1602 LCD shows the current song name in real time.
 
 4. **Volume Control**  
-   - A potentiometer adjusts the volume by sending resistance data to Python, which updates the system's volume.
+   - The variable resistor adjusts its resistance value, which is sent back to Python to adjust the computer's volume accordingly.
 
 ---
 
